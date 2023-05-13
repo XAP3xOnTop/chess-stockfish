@@ -1,6 +1,5 @@
 import chess
 from os import system
-from PIL import Image
 from stockfish import Stockfish
 from fentoboardimage import fenToImage, loadPiecesFolder
 board = chess.Board()
