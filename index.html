@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style.css" rel="stylesheet">
+  <title>StockFish chess</title>
+  <script>
+    function updateImage() {
+      var img = document.getElementById('myImage');
+      var timestamp = new Date().getTime();
+      img.src = 'chessboard.png?' + timestamp;
+    }
+    setInterval(updateImage, 1000);
+  </script>
+</head>
+<body>
+  <img id="myImage" src="chessboard.png" alt="ChessBoard">
+</body>
+</html>
